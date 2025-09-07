@@ -1,0 +1,48 @@
+:root {
+  --bg: #ffffff;
+  --fg: #000000;
+  --accent: oklch(62.7% 0.265 303.9);
+  --maxw: 560px;
+}
+
+html,
+body {
+  height: 100%;
+  margin: 0;
+  background: var(--bg);
+  color: var(--fg);
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+main {
+  max-width: var(--maxw);
+  margin: 64px auto;
+  padding: 0 24px;
+  line-height: 1.6;
+}
+
+img {
+  margin-bottom: 20px;
+}
+
+h1 {
+  font-size: 26px;
+  font-weight: 700;
+  letter-spacing: 0.2px;
+  margin: 0 0 18px;
+}
+
+a {
+  color: var(--accent);
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+p {
+  margin: 0;
+  font-size: 16px;
+}
